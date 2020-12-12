@@ -1,4 +1,4 @@
-<div align='center' ><font size='70'>Welcome to MurphyHou's GitHub Pages</font></div>
+<div align='center' ><font size='30'>Welcome to MurphyHou's GitHub Pages</font></div>
 
 
 
