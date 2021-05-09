@@ -17,7 +17,7 @@ body {
 
 .brief {
     /* 继承父盒子的宽度 如果是设置百分比的话 */
-    width: 27%;
+    width: 23%;
     background: rgba(0, 0, 0, .5);
     margin: 0 auto;
     margin-top:2%;
