@@ -10,7 +10,7 @@
 }
 body {
     /* 这里放入你的背景图片  需要加center*/
-    background: url(./resource/image/pic.jpg) no-repeat center;
+    background: url(./resource/image/background_2.jpg) no-repeat center;
 
     /* 这里改成flex布局
     新加的代码
