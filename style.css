@@ -17,6 +17,7 @@ body {
 
 .brief {
     /* 继承父盒子的宽度 如果是设置百分比的话 */
+    /*主页身份框*/
     width: 23%;
     background: rgba(0, 0, 0, .5);
     margin: 0 auto;
@@ -27,6 +28,7 @@ body {
 
 .brief img {
     /* 设置图片的大小 */
+    /*头像*/
     padding-top: 10px;
     width: 150px;
     height: 150px;
