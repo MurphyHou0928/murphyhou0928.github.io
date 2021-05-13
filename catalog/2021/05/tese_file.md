@@ -1,0 +1,106 @@
+``` html
+<!DOCTYPE html><!-- DOCTYPE:告诉浏览器，我们使用什么规范-->
+<html lang="en"><!--html 总的标签-->
+
+
+<!--head 标签代表网页头部-->
+<head>
+    <!--meat:描述性标签，用来描述我们网站的一些信息-->
+    <!--meat:一般用来做SEO:搜索引擎优化-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+<!--    <link rel="stylesheet" href="background.css">-->
+    <link rel="shortcut icon" href="./resource/image/ICO.ico" type="image/x-icon" />
+
+    <!--title：网页的标题-->
+    <title>MurphyHou'Webpage</title>
+
+<!--底部标签的格式-->
+    <style type="text/css">
+            body {
+                padding: 0;
+                margin: 0 auto;
+            }
+
+            #footer {
+                height: 40px;
+                line-height: 40px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                background: #333;
+                color: #fff;
+                font-family: Arial;
+                font-size: 12px;
+                letter-spacing: 1px;
+            }
+
+            .content {
+                height: 1800px;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+</head>
+
+<body>
+
+<div class="brief">
+
+<!--头像-->
+    <img src="./resource/image/person (4).jpg" alt="">
+
+<!--名字-->
+    <h1><strong>Murphy Hou</strong></h1>
+
+<!--身份-->
+    <h3>Student of OUC</h3>
+
+<!--超链接-->
+    <h5>School:</h5>
+    <a href="http://www.ouc.edu.cn/" target="_blank">Ocean University of China</a>
+    <h5>Email:</h5>
+    <a href="mailto:Murphy0928Hou@outlook.com">Murphy0928Hou@outlook.com</a>
+</div>
+
+<div id="footer">&copy; 2021 Murphy</div>
+
+<script type="text/javascript">
+var curIndex = 0;
+//时间间隔(单位毫秒)，每秒钟显示一张，数组共有3张图片放在img文件夹下
+var timeInterval = 2000;
+
+
+var arr = new Array();
+
+arr[0] = "./resource/image/background_3.jpg";
+arr[1] = "./daily_resource/image/5.10_b.jpg";
+arr[2] = "./daily_resource/image/5.10_l.jpg";
+arr[3] = "./daily_resource/image/5.10_d.jpg";
+arr[4] = "./daily_resource/image/5.11_b.jpg";
+arr[5] = "./daily_resource/image/5.11_l.jpg";
+arr[6] = "./daily_resource/image/5.11_d.jpg";
+
+setInterval(changeImg, timeInterval);
+function changeImg() {
+if (curIndex == arr.length - 1) {
+curIndex = 0;
+} else {
+curIndex += 1;
+}
+
+//设置body的背景图片
+document.body.style.backgroundImage = "URL("+arr[curIndex]+")";  //显示对应的图片
+}
+
+</script>
+
+
+</body>
+
+</html>
+```
+
