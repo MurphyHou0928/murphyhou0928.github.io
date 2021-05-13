@@ -20,9 +20,9 @@
 
 ### 周一 计算机网络 微机原理 毛概
 - 一日三餐
-  - ![alt](.\daily_resource\image\5.10_b.jpg)
-  - ![alt](.\daily_resource\image\5.10_l.jpg)
-  - ![alt](.\daily_resource\image\5.10_d.jpg)
+  - ![alt](..\image\05\5.10_b.jpg)
+  - ![alt](..\image\05\5.10_l.jpg)
+  - ![alt](..\image\05\5.10_d.jpg)
 - 
 - 今天早上没课，赖床了一会儿，八点起床(doge);
 - 上午的计算机网络，还是学的ip和子网掩码，新学到了公网和私网ip;
@@ -42,9 +42,9 @@
 #### 周二 英语 数据结构 计算机网络 自习 人工神经网络与深度学习基础
 - 早上正常起床，洗漱，吃早饭，赶去上课；
 - 一日三餐
-  - 	![alt](.\daily_resource\image\5.11_b.jpg)
-  - 	![alt](.\daily_resource\image\5.11_l.jpg)
-  - 	![alt](.\daily_resource\image\5.11_d.jpg)
+  - 	![alt](..\image\05\5.11_b.jpg)
+  - 	![alt](..\image\05\5.11_l.jpg)
+  - 	![alt](..\image\05\5.11_d.jpg)
 - 第一节英语课，表现不尽人意，课堂氛围比较好，但是老师的口语有些时候听不太出来，不知道老师在讲啥，与老师互动了几次，但是表现不是很好；
 - 数据结构课，学的是图（网）这一部分，定义部分听得比较认真，但是第二节课，老师讲代码的时候，实在是太无聊了，有点困；
 - 下午计算机网路课上机课，对于几个问题还算比较得心应手，但是做题速度有点满，还是需要课下时间继续完成作业；
@@ -52,8 +52,8 @@
 - 之后，陪着XY去取了快递；
 - 晚上，通识课，老师讲的好无聊，收获不大，总时感觉老师讲的东西用不上；
 - 上完课后，去跑步了，三公里，打卡成功！
-  - ![alt](.\daily_resource\image\5.11_r1.jpg)
-  - ![alt](.\daily_resource\image\5.11_r2.jpg)
+  - ![alt](..\image\05\5.11_r1.jpg)
+  - ![alt](..\image\05\5.11_r2.jpg)
 - 总结一下，上课参与度不高，老师讲课无聊时，还是会感到困！
 
 ---
@@ -62,9 +62,9 @@
 
 #### 周三 数学物理方法 微机原理 体育 毛概
 - 一日三餐
-  - ![alt](.\daily_resource\image\5.12_b.jpg)
-  - ![alt](.\daily_resource\image\5.12_l.jpg)
-  - ![alt](.\daily_resource\image\5.12_d.jpg)
+  - ![alt](.\daily_resource\image\05\5.12_b.jpg)
+  - ![alt](.\daily_resource\image\05\5.12_l.jpg)
+  - ![alt](.\daily_resource\image\05\5.12_d.jpg)
 - **写的东西忘保存了，丢了，哇哇哇哇哇~！！！！**
 - 今天上午上的微机原理课，已经讲完了微机原理的上半部分的内容， 接口芯片都讲完了，老师出了一道综合的题目，涉及到了所有已学过的接口芯片，我做了两节课，没做出来，只完成的了芯片的初始化，又累又难受，有好大的挫败感；
 - 这一题没做出来，搞得我今天一天的心态崩了，整个这一天人都是心情低落的；
@@ -72,11 +72,11 @@
 - 今天有点累，眼睛好干，学习也学不动；
 - 今晚上，提早从图书馆出来了，放空了一下自我，适度的放松一下。
 - 总计今天表现并不好，因为一点点挫败感，整个一天都不算很好。
-- ![alt](.\daily_resource\image\5.12_s1.jpg)
-- ![alt](.\daily_resource\image\5.12_s2.jpg)
-- ![alt](.\daily_resource\image\5.12_s3.jpg)
-- ![alt](.\daily_resource\image\5.12_s4.jpg)
-- ![alt](.\daily_resource\image\5.12_s5.jpg)
-- ![alt](.\daily_resource\image\5.12_s6.jpg)
-- ![alt](.\daily_resource\image\5.12_s7.jpg)
+- ![alt](..\image\05\5.12_s1.jpg)
+- ![alt](..\image\05\5.12_s2.jpg)
+- ![alt](..\image\05\5.12_s3.jpg)
+- ![alt](..\image\05\5.12_s4.jpg)
+- ![alt](..\image\05\5.12_s5.jpg)
+- ![alt](..\image\05\5.12_s6.jpg)
+- ![alt](..\image\05\5.12_s7.jpg)
 
