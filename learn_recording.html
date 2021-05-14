@@ -1,18 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>learn</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>test</title>
 </head>
 <body>
-<!--<h1 class="post-title"><a class="post-link" href=".\DEMO1\index.html">TEST</a></h1>-->
-
-<div class="footer">
-    <h5>&copy; 2021 Murphy</h5>
-</div>
-
+<script>
+    var arr = new Array（）；
+    arr[0] = [0,"name0","value0"];
+    arr[1] = [1,"name1","value1"];
+    arr[2] = [2,"name2","value2"];
+    arr[3] = [3,"name3","value3"];
+    arr[4] = [4,"name4","value4"];
+    function Write2Text（）
+    {
+    var fso = new ActiveXObject（"Scripting.FileSystemObject"）；
+    var f = fso.CreateTextFile（"a.txt", true）；
+    for（var i=0;i<arr.length;i++）
+    {
+    f.write（arr[i]）
+    f.WriteBlankLines（1）
+    }
+    f.Close（）；
+    }
+    </script>
+<input type=button value="Write" οnclick="Write2Text（）">
+<script>
+    function GetHeader（src） {
+    var ForReading=1;
+    var fso=new ActiveXObject（"Scripting.FileSystemObject"）；
+    var f=fso.OpenTextFile（src,ForReading）；
+    return（f.ReadAll（））；
+    }
+    function ReadText（）{
+    var arr=GetHeader（"a.txt"）。split（"\r\n"）；
+    for（var i=0;i<arr.length;i++）{
+    alert（"第"+（i+1）+"行数据为："+arr[i]）；
+    }
+    }
+    </script>
+<input type=button value="Read" οnclick="ReadText（）">
 </body>
-
 </html>
