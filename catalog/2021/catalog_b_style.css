@@ -7,7 +7,7 @@
 
 body {
     /* 这里放入你的背景图片  需要加center*/
-    background: url(../../../resource/image/background_pw.jpg) no-repeat center;
+    background: url(../../../resource/image/background_blog.jpg) no-repeat center;
     height: 100vh;
     display: flex;
     justify-content: center;
