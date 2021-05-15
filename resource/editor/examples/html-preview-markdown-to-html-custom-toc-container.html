@@ -139,7 +139,7 @@ alert("script");
             $(function() {
                 var testEditormdView, testEditormdView2;
                 
-                $.get("test.md", function(markdown) {
+                $.get("./May.md", function(markdown) {
                     
 				    testEditormdView = editormd.markdownToHTML("test-editormd-view", {
                         markdown        : markdown ,//+ "\r\n" + $("#append-test").text(),
