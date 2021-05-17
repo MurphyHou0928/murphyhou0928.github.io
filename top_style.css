@@ -6,7 +6,7 @@
     position: absolute;
 
     top: 0px;
-    right:10px;
+    right:1%;
     /*右上角定位：https://jingyan.baidu.com/article/2c8c281d0c1f0c4008252ad8.html*/
     /*"CSS 布局 - position 属性  https://www.w3school.com.cn/css/css_positioning.asp"*/
     width: 10%;
@@ -14,7 +14,8 @@
     background:rgba(0,0,0,.8);
     color: #fff;
     font-family: Arial;
-    font-size: 12px;
+
+    font-size: 10%;
     letter-spacing: 1px;
 }
 
@@ -27,7 +28,7 @@
     position: absolute;
 
     top: 0px;
-    right:150px;
+    right:11%;
     /*右上角定位：https://jingyan.baidu.com/article/2c8c281d0c1f0c4008252ad8.html*/
     /*"CSS 布局 - position 属性  https://www.w3school.com.cn/css/css_positioning.asp"*/
     width: 10%;
@@ -35,7 +36,8 @@
     background:rgba(0,0,0,.8);
     color: #fff;
     font-family: Arial;
-    font-size: 12px;
+
+    font-size: 10%;
     letter-spacing: 1px;
 }
 
@@ -47,12 +49,13 @@
     position: absolute;
 
     top: 0px;
-    right:290px;
+    right:21%;
     width: 10%;
     text-align: center;
     background:rgba(0,0,0,.8);
     color: #fff;
     font-family: Arial;
-    font-size: 12px;
+
+    font-size: 10%;
     letter-spacing: 1px;
 }

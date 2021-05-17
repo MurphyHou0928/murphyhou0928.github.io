@@ -6,6 +6,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+
 body {
     /* 这里放入你的背景图片  需要加center*/
     background: url(./resource/image/background_index.jpg) no-repeat center;
@@ -19,8 +21,10 @@ body {
 .brief {
     /* 继承父盒子的宽度 如果是设置百分比的话 */
     /*主页身份框*/
-    width: 23%;  /*width 属性设置元素的宽度。*/
-    height: 50%;    /*height 属性设置元素的高度。*/
+    /*width: 23%;  /*width 属性设置元素的宽度。*/
+    width:300px;
+    /*height: 50%;    /*height 属性设置元素的高度。*/*/
+    height:auto;
     background: rgba(0, 0, 0, 0.5);
     margin: 0 auto;  /*margin 简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值。*/
     margin-top:2%;  /*设置元素的上外边距。*/
@@ -42,17 +46,19 @@ body {
 }
 
 .brief h1 {
-    font-size: 40px;
+    font-size: 200%;
     font-weight: 100;
 }
 
 .brief h3 {
-    font-size: 30px;
+    font-size: 150%;
     font-weight: 100;
 }
-
+/*
 .brief h5 {
-    font-size: 20px;
+    font-size: 50%;
     font-weight: 100;
 }
+*/
+
 
