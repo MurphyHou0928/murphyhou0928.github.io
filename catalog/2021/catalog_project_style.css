@@ -1,0 +1,17 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body {
+    /* 这里放入你的背景图片  需要加center*/
+    background: url(../../resource/image/background_project.jpg) no-repeat center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat:repeat-y;
+}

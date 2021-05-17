@@ -56,7 +56,7 @@
         {
             var test_num = 1;
             var password = prompt('Please enter your password:','');
-            while (test_num < 3) 
+            while (test_num >0) 
             {
                 if (!password)
                 history.go(-1);
@@ -69,7 +69,7 @@
                 test_num+=1;
                 var password = prompt('Wrong password! Please re-enter:');
             }
-            if (password!="password" & test_num ==3)
+            if (password!="password")
             history.go(-1);
             return " ";
         }
