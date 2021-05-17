@@ -50,6 +50,32 @@
         </style>
 </head>
 <body>
+    
+    <script LANGUAGE="JavaScript">
+        function password() 
+        {
+            var test_num = 1;
+            var password = prompt('Please enter your password:','');
+            while (test_num < 3) 
+            {
+                if (!password)
+                history.go(-1);
+                if (password == "HelloWorld") 
+                {
+                    alert('The password is correct!');
+                    // location.href="test.html";//密码正确，跳到指定页面
+                    break;
+                }
+                test_num+=1;
+                var password = prompt('Wrong password! Please re-enter:');
+            }
+            if (password!="password" & test_num ==3)
+            history.go(-1);
+            return " ";
+        }
+        document.write(password());
+    </script>
+    
 <div id="layout">
     <header>
         <h1 style="font-size:50px" >January Blog</h1>
