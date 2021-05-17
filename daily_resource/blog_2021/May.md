@@ -129,9 +129,9 @@ print(response.text)##返回的内容就是网页的源代码
 - 看到了无穷小亮的热门动植物鉴定视频，被洗脑了，看了一个小时，😵；
 - 下午在图书馆完成了一点点作业；
 - 傍晚回去吃饭，时机刚刚好，看到了荚状云，哇！太幸运了，太漂亮了🤣；
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/Nice_Cloud (31).jpg)
+- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/Nice_Cloud.jpg)
 - 雨过天晴的青岛太棒了😆；
 - 晚上，本来想把刚刚拍的照片更新到网站上，但是网站出问题了，现在我仍然没有解决（所以，现在的文字不能更新到网站上，下周比较忙，也不会频繁更新网站了，所以，现在的文字不知道什么时候能更新上去）；
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.16_problem1.jpg)
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.16_problem1.jpg)
+- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.16_problem1.png)
+- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.16_problem1.png)
 - 今天整个一天不在状态，不知所措，但是今天的云真的太棒了；
