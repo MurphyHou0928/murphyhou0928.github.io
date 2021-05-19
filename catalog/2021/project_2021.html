@@ -16,11 +16,7 @@
 <!--    a:active {color:#0000FF;}  /* 鼠标点击时 */-->
 <style type="text/css">
         a:link {
-        color:	#FFFFFF;
-        text-decoration:none;
-        }
-        a:visited {
-        color:	#FFFFFF;
+        color:  #800080;
         text-decoration:none;
         }
         a:hover {
@@ -34,7 +30,6 @@
     </style>
 
 <body>
-
 
 <!-- <h1 align="center">网页正在开发中</h1> -->
 
@@ -51,46 +46,49 @@
 <tfoot>	定义表格的页脚 
 -->
 
-<div class="table_catalog">
-    <h1>Catalog</h1>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+<div id="table_catalog">
+    <table  class="bordered">
+        <!-- 表头 -->
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+
+            <th>Date</th>
+            <th>Programming Language</th>
+            <th>Project name</th>
+            <th>Remark</th>
+        </tr>
+
+        </thead>
+
+        <!-- 表身 -->
+        <tbody>
+
+        <p>&nbsp;</p>
+        <h1 align="center" >Contents</h1>
+        <p>&nbsp;</p>
 
 
-    <table border="0.1">
-        <table border="1">
-            <tr>
-                <th>&nbsp;</th>
+        <tr>
+            <td>1</td>
+            <td>2021.02.11</td>
+            <td>Python</td>
+            <td><strong><a href="../../project/2021/wordcloud.html" target="_blank">[图像]分析文本并生成词云！</a></strong></td>
+<!--            <td>[视觉]QQ聊天记录生产云图！</td>-->
+            <td>待导入</td>
+        </tr>
+        <!-- 正文第一行 -->
+        <tr>
+            <td>2</td>
+            <td>2021.04.02</td>
+            <td>Python</td>
+            <td><strong><a href="../../project/2021/capture.html" target="_blank">[视觉]想要获得你的照片有多简单！</a></strong></td>
+<!--            <td>[视觉]想要获得你的照片有多简单！</td>-->
+            <td>待导入</td>
+        </tr>
 
-                <th>Date</th>
-                <th>Programming Language</th>
-                <th>Project name</th>
-                <th>Remark</th>
-            </tr>
-            <!-- 正文第一行 -->
-            <tr>
-                <td>1</td>
-                <td>2021.4.1</td>
-                <td>Python</td>
-                <td>[视觉]QQ聊天记录生产云图！</td>
-                <td>待导入</td>
-            </tr>
-            <!-- 正文第一行 -->
-            <tr>  
-                <td>2</td>
-                <td>2021.4.1</td>
-                <td>Python</td>
-                <td>[视觉]想要获得你的照片有多简单！</td>
-                <td>待导入</td>
-            </tr>
-
-        </table>
+        </tbody>
     </table>
 </div>
-
-<table >
-
-</table>
-
 </body>
 </html>
