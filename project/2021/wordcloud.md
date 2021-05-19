@@ -23,9 +23,9 @@
 # 项目解析
 
 - QQ消息记录的导出
-  - ![](https://murphyhou0928.github.io/project/2021/reource/wordcloud_1.png)
-  - ![](https://murphyhou0928.github.io/project/2021/reource/wordcloud_1.png)
-  - ![](https://murphyhou0928.github.io/project/2021/reource/wordcloud_3.png)
+  - ![](https://murphyhou0928.github.io/project/2021/resource/wordcloud_1.png)
+  - ![](https://murphyhou0928.github.io/project/2021/resource/wordcloud_2.png)
+  - ![](https://murphyhou0928.github.io/project/2021/resource/wordcloud_3.png)
   - ![](.\resource\wordcloud_1.png)
 - 打开pycharm（或者其他），建好项目，新建好文件~~上号！冲冲冲！！！（doge~）
   - 
