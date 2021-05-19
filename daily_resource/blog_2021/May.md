@@ -43,7 +43,7 @@
 - 之后，陪着XY去取了快递；
 - 晚上，通识课，老师讲的好无聊，收获不大，总时感觉老师讲的东西用不上；
 - 上完课后，去跑步了，三公里，打卡成功！
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.11_r2.jpg)
+- <img src="../../daily_resource/image_2021/05/5.11_r2.jpg" style="zoom:50%;" />
 - 总结一下，上课参与度不高，老师讲课无聊时，还是会感到困！
 
 ---
@@ -58,7 +58,7 @@
 - 今天有点累，眼睛好干，学习也学不动；
 - 今晚上，提早从图书馆出来了，放空了一下自我，适度的放松一下。
 - 总计今天表现并不好，因为一点点挫败感，整个一天都不算很好。
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.12_s6.jpg)
+- ![](../../daily_resource/image_2021/05/5.12_s6.jpg)
 
   
 
@@ -129,11 +129,11 @@ print(response.text)##返回的内容就是网页的源代码
 - 看到了无穷小亮的热门动植物鉴定视频，被洗脑了，看了一个小时，😵；
 - 下午在图书馆完成了一点点作业；
 - 傍晚回去吃饭，时机刚刚好，看到了荚状云，哇！太幸运了，太漂亮了🤣；
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/Nice_Cloud.jpg)
+- ![](../../daily_resource/image_2021/05/Nice_Cloud.jpg)
 - 雨过天晴的青岛太棒了😆；
 - 晚上，本来想把刚刚拍的照片更新到网站上，但是网站出问题了，现在我仍然没有解决（所以，现在的文字不能更新到网站上，下周比较忙，也不会频繁更新网站了，所以，现在的文字不知道什么时候能更新上去）；
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.16_problem1.png)
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5.16_problem1.png)
+- ![](../../daily_resource/image_2021/05/5.16_problem1.png)
+- ![](../../daily_resource/image_2021/05/5.16_problem1.png)
 - 今天整个一天不在状态，不知所措，但是今天的云真的太棒了；
 
 ---
@@ -167,6 +167,14 @@ print(response.text)##返回的内容就是网页的源代码
 - 计算机网络课程进行了随堂测试。我居然忘记了MAC地址的格式（**MAC：8*6=48位位二进制位**）；
 - 今天天气太好了，天空是真的蓝，就是太阳太晒了，有点热！
 - ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5_18_s1.jpg)
+- ![](../../daily_resource/image_2021/05/5_18_s2.jpg)
 
-- ![](https://murphyhou0928.github.io/daily_resource/image_2021/05/5_18_s2.jpg)
 
+
+---
+
+# 2021.5.19
+
+#### 周三 晴天 数学物理方法 微机原理 篮球 毛概
+
+- 
