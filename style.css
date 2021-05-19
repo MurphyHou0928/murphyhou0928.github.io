@@ -25,6 +25,7 @@ body {
     width:300px;
     /*height: 50%;    /*height 属性设置元素的高度。*/*/
     height:auto;
+    
     background: rgba(0, 0, 0, 0.5);
     margin: 0 auto;  /*margin 简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值。*/
     margin-top:2%;  /*设置元素的上外边距。*/
