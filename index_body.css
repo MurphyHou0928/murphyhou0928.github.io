@@ -62,4 +62,30 @@ body {
 }
 */
 
+.brief ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brief ul li {
+    list-style: none;
+}
+
+.brief li a {
+    /* 这里图标是字体形式放进去的所以我们要修改的是字体的大小 */
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all ease-in-out 300ms;
+}
+
+
+/* 最后加一个动画,其实很简单 */
+
+.brief li a:hover {
+    color: #b9b9b9;
+}
+
 
