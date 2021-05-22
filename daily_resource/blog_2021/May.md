@@ -200,10 +200,9 @@ print(response.text)##返回的内容就是网页的源代码
   - 增加了个人介绍部分的页面，但仍然需要完善，增加新的内容（主要是我也没啥值得拿出来秀的啊~~~）
 - 下午写了英语，晚上了数据结构的作业
 - 今天下午雨后天晴，天空也很好
-- ![](../../daily_resource/image_2021/05/5_20 (11).jpg)![](../../daily_resource/image_2021/05/5_20 (16).jpg)
-- ![](../../daily_resource/image_2021/05/5_20 (5).jpg)
-- ![](../../daily_resource/image_2021/05/5_20 (6).jpg)
-- ![](../../daily_resource/image_2021/05/5_20 (15).jpg)
+- ![](../../daily_resource/image_2021/05/5_20_s1.jpg)
+- ![](../../daily_resource/image_2021/05/5_20_s6.jpg)
+- ![](../../daily_resource/image_2021/05/5_20_s15.jpg)
 - 额~~~今天没有怎么在意有什么特别的，在空间和朋友圈看到很多秀恩爱的，也没怎么在意。自己沉浸在了自己的世界中，忽视了女朋友~确实是做的有点不对！
 
 ---
@@ -215,10 +214,10 @@ print(response.text)##返回的内容就是网页的源代码
 - 今天的数学课总算跟上了，周末做题看看自己是不是真正掌握了！
 - 下午做数据结构算法实验，找BUG…………
 - 晚上找BUG…………
-- ![](../../daily_resource/image_2021/05/5_21 (1).jpg)
-- ![](../../daily_resource/image_2021/05/5_21 (10).jpg)
-- ![](../../daily_resource/image_2021/05/5_21 (6).jpg)
-- ![](../../daily_resource/image_2021/05/5_21 (7).jpg)
+- ![](../../daily_resource/image_2021/05/5_21_p1.jpg)
+- ![](../../daily_resource/image_2021/05/5_21_p0.jpg)
+- ![](../../daily_resource/image_2021/05/5_21_p6.jpg)
+- ![](../../daily_resource/image_2021/05/5_21_p4.jpg)
 
 ---
 
