@@ -10,7 +10,8 @@
 
 body {
     /* 这里放入你的背景图片  需要加center*/
-    background: url(./resource/image/me_background.jpg)center;
+    background: url(./resource/image/me_background.jpg) center;
+    backdrop-filter: saturate(200%) blur(5px);
     height: 100vh;
     display: flex;
     justify-content: center;

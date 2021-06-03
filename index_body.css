@@ -11,6 +11,7 @@
 body {
     /* 这里放入你的背景图片  需要加center*/
     background: url(./resource/image/background_index.jpg) no-repeat center;
+    backdrop-filter: saturate(150%) blur(15px);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,7 +27,10 @@ body {
     /*height: 50%;    /*height 属性设置元素的高度。*/*/
     height:auto;
     
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(29,29,31,0.72);
+    backdrop-filter: saturate(180%) blur(20px);
+
+
     margin: 0 auto;  /*margin 简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值。*/
     margin-top:2%;  /*设置元素的上外边距。*/
     /*margin-bottom:2%;*/   /*设置元素的下外边距。*/
@@ -55,12 +59,6 @@ body {
     font-size: 150%;
     font-weight: 100;
 }
-/*
-.brief h5 {
-    font-size: 50%;
-    font-weight: 100;
-}
-*/
 
 .brief ul {
     margin: 0;
@@ -86,6 +84,34 @@ body {
 
 .brief li a:hover {
     color: #b9b9b9;
+}
+
+/*
+<!--    链接的颜色-->
+<!--颜色 https://www.w3school.com.cn/cssref/css_colors.asp-->
+<!--    a:link{color:#000000;}      /* 未访问链接-->
+<!--    a:visited {color:#00FF00;}  /* 已访问链接 -->
+<!--    a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 -->
+<!--    a:active {color:#0000FF;}  /* 鼠标点击时 -->
+*/
+
+
+.school a:link {
+color:	#FFFFFF;
+    /*text-decoration:underline;*/
+    text-decoration:none;
+}
+.school a:visited {
+    color:	#FFFFFF;
+    text-decoration:none;
+}
+.school a:hover {
+    color:	#0000FF;
+    text-decoration:none;
+}
+.school a:active {
+    color:	#800080;
+    text-decoration:none;
 }
 
 

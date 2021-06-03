@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Blog 2021</title>
 
@@ -15,16 +16,16 @@
 <!--    a:active {color:#0000FF;}  /* 鼠标点击时 */-->
 <style type="text/css">
         a:link {
-        color:	#FFFFFF;
+        color:	#000000;
         text-decoration:none;
         }
         a:visited {
-        color:	#FFFFFF;
+        color:	#000000;
         text-decoration:none;
         }
         a:hover {
         color:	#0000FF;
-        text-decoration:underline;
+        text-decoration:none;
         }
         a:active {
         color:	#800080;
@@ -32,80 +33,73 @@
         }
     </style>
 
-<body>
 
-<div class="January">
+    <iframe id='myIframe' name='myIframe' frameborder="0" width="75%" height="90%" align="left"scrolling='auto'>
+    </iframe>
 
-    <a href="January_b.html" target="_blank"><div style="font-size:10px;"><strong>January</strong></div></a>
+<div class="sidebar">
+    <div class="tab"  id="cate0"><i class="reorder"></i> Month</div>
 
-</div>
+    <div class="design" id="cate1">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="January_b.html" target="myIframe"><strong> January</strong></a></div>
+    </div>
 
-<div class="February">
+    <div class="design" id="cate2">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="February_b.html" target="myIframe"><strong> February</strong></a></div>
+    </div>
 
-    <a href="February_b.html" target="_blank"><div style="font-size:10px;"><strong>February</strong></div></a>
+    <div class="design" id="cate3">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="March_b.html" target="myIframe"><strong> March</strong></a></div>
+    </div>
 
-</div>
+    <div class="design" id="cate4">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="April_b.html" target="myIframe"><strong> April</strong></a></div>
+    </div>
 
-<div class="March">
+    <div class="design" id="cate5">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="May_b.html" target="myIframe"><strong> May</strong></a></div>
+    </div>
 
-    <a href="March_b.html" target="_blank"><div style="font-size:10px;"><strong>March</strong></div></a>
+    <div class="design" id="cate6">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="June_b.html" target="myIframe"><strong> June</strong></a></div>
+    </div>
 
-</div>
+    <div class="design" id="cate7">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="July_b.html" target="myIframe"><strong> July</strong></a></div>
+    </div>
 
-<div class="April">
+    <div class="design" id="cate8">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="August_b.html" target="myIframe"><strong> August</strong></a></div>
+    </div>
 
-    <a href="April_b.html" target="_blank"><div style="font-size:10px;"><strong>April</strong></div></a>
+    <div class="design" id="cate9">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="September_b.html" target="myIframe"><strong> September</strong></a></div>
+    </div>
 
-</div>
+    <div class="design" id="cate10">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="October_b.html" target="myIframe"><strong> October</strong></a></div>
+    </div>
 
-<div class="May">
+    <div class="design" id="cate11">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="November_b.html" target="myIframe"><strong> November</strong></a></div>
+    </div>
 
-    <a href="May_b.html" target="_blank"><div style="font-size:10px;"><strong>May</strong></div></a>
+    <div class="design" id="cate12">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="December_b.html" target="myIframe"><strong> December</strong></a></div>
 
-</div>
-
-<div class="June">
-
-    <a href="June_b.html" target="_blank"><div style="font-size:10px;"><strong>June</strong></div></a>
-
-</div>
-
-<div class="July">
-
-    <a href="July_b.html" target="_blank"><div style="font-size:10px;"><strong>July</strong></div></a>
-
-</div>
-
-<div class="August">
-
-    <a href="August_b.html" target="_blank"><div style="font-size:10px;"><strong>August</strong></div></a>
-
-</div>
-
-<div class="September">
-
-    <a href="September_b.html" target="_blank"><div style="font-size:10px;"><strong>September</strong></div></a>
-
-</div>
-
-<div class="October">
-
-    <a href="October_b.html" target="_blank"><div style="font-size:10px;"><strong>October</strong></div></a>
+    </div>
 
 </div>
 
-<div class="November">
+<a class="btn"></a>
 
-    <a href="November_b.html" target="_blank"><div style="font-size:10px;"><strong>November</strong></div></a>
+<script type="text/javascript">
+    $('.btn').on('click',function () {
+        $('.btn').toggleClass('btnc');
+        $('.sidebar').toggleClass('side');
 
-</div>
-
-<div class="December">
-
-    <a href="December_b.html" target="_blank"><div style="font-size:10px;"><strong>December</strong></div></a>
-
-</div>
-
+    })
+</script>
 
 </body>
 </html>

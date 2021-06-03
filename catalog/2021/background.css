@@ -1,4 +1,5 @@
 /* 该文件是每个月的照片墙的层叠样式表文件*/
+/*月份_p.html 文件引用该CSS*/
 *{
 	margin:0;
 	padding: 0;
@@ -7,6 +8,7 @@
 body{
     /* 这里放入你的背景图片  需要加center*/
     background: url(../../resource/image/background_monthphotowall1.jpg) no-repeat center;
+    backdrop-filter: saturate(150%) blur(5px);
     height: 100vh;
     display: flex;
     justify-content: center;

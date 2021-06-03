@@ -8,6 +8,7 @@
 body {
     /* 这里放入你的背景图片  需要加center*/
     background: url(../../resource/image/blog_background.jpg) no-repeat center;
+    backdrop-filter: saturate(150%) blur(10px);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,232 +18,41 @@ body {
 }
 
 
-.January {
-
-     height: 40px;  /*height CSS 属性指定了一个元素的高度。*/
-     line-height: 40px;  /*line-height 属性设置行间的距离（行高）。*/
-     position: absolute;  /*position 属性规定元素的定位类型。*/
-
-     top: 30%;  /*top 属性规定元素的顶部边缘。该属性定义了一个定位元素的上外边距边界与其包含块上边界之间的偏移。
-                  注释：如果 "position" 属性的值为 "static"，那么设置 "top" 属性不会产生任何效果。*/
-     left:5%; /*right 属性规定元素的右边缘。该属性定义了定位元素右外边距边界与其包含块右边界之间的偏移。
-                   注释：如果 "position" 属性的值为 "static"，那么设置 "right" 属性不会产生任何效果。*/
-     /*右上角定位：https://jingyan.baidu.com/article/2c8c281d0c1f0c4008252ad8.html*/
-     /*"CSS 布局 - position 属性  https://www.w3school.com.cn/css/css_positioning.asp"*/
-
-
-     width: 10%;   /*width 属性设置元素的宽度。*/
-     text-align: center;   /*text-align 属性规定元素中的文本的水平对齐方式。
-                           该属性通过指定行框与哪个点对齐，从而设置块级元素内文本的水平对齐方式。通过允许用户代理调整行内容中字母和字之间的间隔，可以支持值 justify；不同用户代理可能会得到不同的结果。*/
-
-     background:rgba(0,0,0,.8);   /*背景颜色*/  /*rgba() 函数使用红(R)、绿(G)、蓝(B)、透明度(A)的叠加来生成各式各样的颜色。*/
-     color: #fff;  /*color 属性规定文本的颜色。*/
-     font-family: Arial;  /*CSS 属性 font-family 允许您通过给定一个有先后顺序的，由字体名或者字体族名组成的列表来为选定的元素设置字体。*/
-     font-size: 12px;  /*font-size 属性可设置字体的尺寸。*/
-     letter-spacing: 1px;  /*letter-spacing 属性增加或减少字符间的空白（字符间距）。*/
- }
-
-
- .February {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 30%;
-     left:20%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
+.sidebar{
+    position:fixed;
+    left:1px;
+	width:175px;
+	border-color: #fffffff;
+}
+.tab{
+	font-size:12px;
+	height:27px;
+	width:175px;
+	background: #eeeeee;
+	line-height: 27px; /*把line-height高度设置和height一样就可以让字体垂直居中*/
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #efefef;
+	border-radius:2px 2px 0px 0px;
+}
+.reorder{
+	margin-left:10px;
+	content: url(../../resource/image/list.ico);
+}
+.navto-nav{
+	font-size:12px;
+	height:45px;
+	width:175px;
+	background: #fbfbfb;
+	line-height: 45px; /*把line-height高度设置和height一样就可以让字体垂直居中*/
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #efefef;
+}
+.imooc-icon{
+	margin-left:10px;
+	content: url(../../resource/image/icon1.ico);
+}
 
 
- .March {
 
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 30%;
-     left:35%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
-
- .April {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 30%;
-     right:35%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
-
- .May {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 30%;
-     right:20%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
-
- .June {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 30%;
-     right:5%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
-
- .July {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 55%;
-     left:5%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
-
- .August {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 55%;
-     left:20%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
- .September {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 55%;
-     left:35%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
- .October {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 55%;
-     right:35%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
- .November {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 55%;
-     right:20%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
-
- .December {
-
-     height: 40px;
-     line-height: 40px;
-     position: absolute;
-
-     top: 55%;
-     right:5%;
-
-     width: 10%;
-     text-align: center;
-     background:rgba(0,0,0,.8);
-     color: #fff;
-     font-family: Arial;
-     font-size: 12px;
-     letter-spacing: 1px;
- }
