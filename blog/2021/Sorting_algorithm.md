@@ -1,6 +1,6 @@
 # Sorting algorithm
-## 2021.6.12
-### 排序算法   python  C/C++
+2021.6.12
+排序算法   python  C/C++
 
 #### 1. 冒泡排序
 
