@@ -1,6 +1,3 @@
-# Sorting algorithm
-2021.6.12——python  C/C++
-
 ## 1. 冒泡排序
 
 - 算法描述
