@@ -8,7 +8,7 @@
 body {
     /* 这里放入你的背景图片  需要加center*/
     background: url(../../resource/image/record_background.jpg) no-repeat center;
-    backdrop-filter: saturate(150%) blur(10px);
+    backdrop-filter: saturate(150%) blur(3px);
     height: 100vh;
     display: flex;
     justify-content: center;
