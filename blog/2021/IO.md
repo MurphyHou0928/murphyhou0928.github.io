@@ -1504,6 +1504,43 @@ X11 模式3
 
 ## 应用举例
 
-```markdown
+```assembly
+;假设端口是
+0123H;control
+0120H;0
+0121H;1
+0122H
+
+
+CNT0：
+MOV DX,0123H            ;初始化
+MOV AL,34H
+OUT DX,AL
+MOV DX,0120H            ;写入计数初值
+MOV AX,20000            ;使用AX寄存器，分为低8位和高8位，即AL和AH
+OUT DX,AL
+MOV AL,AH
+OUT DX,AL
+
+
+CNT1：
+MOV DX,0123H            ;初始化
+MOV AL,56H
+OUT DX,AL
+MOV DX,0121H            ;写入计数初值
+MOV AX,200              ;这里AX可以直接写AL,200用八位寄存器就够   
+OUT DX,AL
+
+
+CNT2：
+MOV DX,0123H            ;初始化
+MOV AL,B0H
+OUT DX,AL
+MOV DX,0122H            ;写入计数初值
+MOV AX,10000
+OUT DX,AL
+MOV AL,AH
+OUT DX,AL
+
 ```
 
