@@ -243,41 +243,45 @@ PS C:\Users\DELL> java -version
 - 多行注释
 
 - 文档注释
+
 ```java
-  /**
-   * -*- coding : utf-8 -*-
-   * Time       : 2021/7/7 23:49
-   * Author     : MurphyHou
-   * Proj_Name  : JavaSE
-   * File_Name  : Hello.java
-   * Software   : IntelliJ IDEA
-   * =======Here We Go!=======
-   */
-  
-  public class Hello {
-      public static void main(String[] args) {
-          System.out.println("hello world");
-  
-  
-          //单行注释
-  
-  
-          /*多行注释*/
-          /*
-          这是注释
-          这是注释
-          这是注释
-           */
-  
-         
-          //JavaDoc:
-          /**
-           * 注释
-           * 注释
-           * 注释
-           */
-      }
-  }
+package Base_knowledge;
+
+/**
+ * -*- coding : utf-8 -*-
+ * Time       : 2021/7/7 23:49
+ * Author     : MurphyHou
+ * Proj_Name  : JavaSE
+ * File_Name  : Base_knowledge.Hello.java
+ * Software   : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("hello world");
+
+
+        //单行注释
+
+
+        /*多行注释*/
+        /*
+        这是注释
+        这是注释
+        这是注释
+         */
+
+
+        //JavaDoc:
+        /**
+         * 注释
+         * 注释
+         * 注释
+         */
+    }
+}
+
 ```
 
 ## 标识符和关键字
@@ -324,34 +328,36 @@ PS C:\Users\DELL> java -version
       - 占1位，其值只有true和false两个
 
 ``` java
-  /**
-   * -*- coding : utf-8 -*-
-   * Time       : 2021/7/8 20:32
-   * Author     : MurphyHou
-   * Proj_Name  : JavaSE
-   * File_Name  : Value_type.java
-   * Software   : IntelliJ IDEA
-   * =======Here We Go!=======
-      */
+package Base_knowledge;
 
-  public class Value_type {
-      public static void main(String[] args) {
-          byte a=1;
-          short b=2;
-          int c=3;
-          long d=4L;   //long类型要在数字后面加上l/L
+/**
+ * -*- coding : utf-8 -*-
+ * Time       : 2021/7/8 20:32
+ * Author     : MurphyHou
+ * Proj_Name  : JavaSE
+ * File_Name  : Base_knowledge.Value_type.java
+ * Software   : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
 
-          float e=50.1f;  //float后面加上F/f
-          double f=3.1415926;
-      
-          char g='a';
-      
-          String h="dwaawdawd";//String 不是关键词，是一个类
-      
-          boolean flag=true;
-          boolean flag1=false;
-      }
-  }
+public class Value_type {
+    public static void main(String[] args) {
+        byte a=1;
+        short b=2;
+        int c=3;
+        long d=4L;   //long类型要在数字后面加上l/L
+
+        float e=50.1f;  //float后面加上F/f
+        double f=3.1415926;
+
+        char g='a';
+
+        String h="dwaawdawd";//String 不是关键词，是一个类
+
+        boolean flag=true;
+        boolean flag1=false;
+    }
+}
 
 ```
 
@@ -664,5 +670,12 @@ public class Operator {
 
 
 
-## 
+## 用户交互 scanner
 
+## 顺序结构
+
+## 选择结构
+
+## 循环结构
+
+## break&&continue
