@@ -355,18 +355,314 @@ PS C:\Users\DELL> java -version
 
 ```
 
+``` java
+import java.math.BigDecimal;
+
+/**
+ * -*- coding : utf-8 -*-
+ * Time       : 2021/7/8 20:53
+ * Author     : MurphyHou
+ * Proj_Name  : JavaSE
+ * File_Name  : Data_expand.java
+ * Software   : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+public class Data_expand {
+    public static void main(String[] args) {
+        //整数拓展//进制//二进制：0b//十进制//八进制 0//十六进制 0x
+        int n1=10;
+        int n2=010;
+        int n3=0x10;
+        System.out.println(n1);
+        System.out.println(n2);
+        System.out.println(n3);
+        System.out.println("==================================");
+        //浮点数拓展
+        //folat 有限 离散 舍入误差  大约  接近但不等于
+        //double
+
+        //最好完全使用浮点数进行比较
+
+        float f=0.1f;
+        double d=1.0/10;
+
+        System.out.println(f==d);
+        System.out.println(f);
+        System.out.println(d);
+
+        float d1=53485468864f;
+        float d2=d1+1;
+
+        System.out.println(d1==d2);
+
+
+        //BigDecimal 数学工具类
+
+
+
+        // 字符类型拓展
+        System.out.println("==================================");
+
+        char c1='a';
+        char c2='中';
+        System.out.println(c1);
+        System.out.println((int)c1); //强制类型转换
+
+        System.out.println(c2);
+        System.out.println((int)c2);
+
+
+        //字符本身就是数字
+        //char 编码：Unicode 2字节  0-65536
+
+        char c3='\u0061';
+        System.out.println(c3);  //a
+
+        System.out.println("==================================");
+        //转义字符
+        System.out.println("hello\tworld");
+        // \t:table
+        // \n:换行
+
+
+        System.out.println("==================================");
+
+        String sa=new String("hello world");//对象：内存分析
+        String sb=new String("hello world");
+
+        System.out.println(sa==sb);
+
+
+        String sc="hello world";
+        String sd="hello world";
+        System.out.println(sc == sd);
+
+        System.out.println("==================================");
+        //布尔值拓展
+        boolean flag=true;
+        if (flag){
+            System.out.println("true");
+        }
+
+        if(flag==true){
+            System.out.println("true");
+        }
+    }
+}
+```
+
+
+
   - 引用类型
     - 类
     - 接口
     - 数组
 
-- 
-
 ## 类型转换
+
+- 强制类型转换
+- 自动类型转换
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ * Time       : 2021/7/8 21:19
+ * Author     : MurphyHou
+ * Proj_Name  : JavaSE
+ * File_Name  : Type_conversion.java
+ * Software   : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+public class Type_conversion {
+    public static void main(String[] args) {
+        //强制类型转换
+        int i=128;
+        byte b =(byte)i;
+
+        System.out.println(i); //128
+        System.out.println(b);  //-128
+
+        //自动类型转换
+        int j=128;
+        double c =i;
+
+        System.out.println(j); //128
+        System.out.println(c);  //-128
+
+        /*
+        不对布尔值进行转换
+        不能把对象类型转换为不相干的类型
+        高容量到低容量：强制转换
+        转换：内存溢出，精度问题
+         */
+    }
+}
+
+```
+
+
 
 ## 变量 常量
 
+- 变量名
+- 变量类型
+- 作用域
+  - 类变量  static
+  - 实例变量
+  - 局部变量
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ * Time       : 2021/7/8 21:33
+ * Author     : MurphyHou
+ * Proj_Name  : JavaSE
+ * File_Name  : Variable.java
+ * Software   : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+//类
+public class Variable {
+    //属性：变量
+
+    //实例变量：从属于对象;不初始化自动会有默认值
+    //数值类型的默认值：0  0.0
+    //布尔值默认值是false
+    //处理基本类型，其他的默认值都是null
+    String name;
+    int age;
+
+    //类变量,从属于类
+    static double salary=2500;
+
+
+// 定义常量
+    static final double PI=3.14;
+    final static double PI1=3.14;
+    //final 是修饰符，不存在先后顺序
+
+
+    //main方法
+    public static void main(String[] args) {
+        //局部变量：定义在方法里的变量，必须声明和初始化
+        //寿命就是在这个方法里
+
+        //变量类型 变量名字=new Variable();
+        Variable variable = new Variable();
+        System.out.println(variable.age);
+        System.out.println(variable.name);
+
+        System.out.println(salary);
+
+
+
+        //定义常量
+
+        final
+    }
+
+    //其他的方法
+    public void add(){
+
+    }
+}
+
+```
+
+![image-20210708215409533](Java.assets/image-20210708215409533.png)
+
 ## 运算符
 
+![image-20210708215630496](Java.assets/image-20210708215630496.png)
+
+``` java
+package Base_knowledge;
+
+/**
+ * -*- coding : utf-8 -*-
+ * Time       : 2021/7/8 21:55
+ * Author     : MurphyHou
+ * Proj_Name  : JavaSE
+ * File_Name  : Base_knowledge.Operator.java
+ * Software   : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+public class Operator {
+    public static void main(String[] args) {
+        //二元运算符
+
+        int a=10;
+        int b=20;
+        int c=30;
+        int d=40;
+
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a/b);
+        System.out.println(a*b);
+
+        long n1=1554687436848656356L;
+        int n2=123;
+        short n3=10;
+        byte n4=8;
+        System.out.println("==================================");
+        System.out.println(n1+n2+n3+n4);//long  有long则为long，有double则为double
+        System.out.println(n2+n3+n4);//int  无long则为int
+        System.out.println(n3+n4);//int
+
+        System.out.println("==================================");
+        //Math类
+        double pow=Math.pow(2,3);
+        System.out.println(pow);
+
+        System.out.println("==================================");
+
+        boolean aaa=true;
+        boolean bbb=false;
+
+        System.out.println("aaa&&bbb="+(aaa&&bbb));
+        System.out.println("aaa||bbb="+(aaa||bbb));
+        System.out.println("!(aaa&&bbb)"+!(aaa&&bbb));
+
+        //短路运算
+        System.out.println("==================================");
+        int ccc=5;
+        boolean ddd=(ccc<4)&&(ccc++<4);
+        System.out.println(ddd);
+        System.out.println(ccc);
+        System.out.println("==================================");
+
+        
+        //字符串连接符   +
+        int num1=10;
+        int num2=20;
+        System.out.println(""+num1+num2);
+        System.out.println(num1+num2);
+        System.out.println(num1+num2+"");
+
+    }
+}
+
+```
+
+
+
 ## 包机制、JavaDoc
+
+![image-20210708223509417](Java.assets/image-20210708223509417.png)
+
+![image-20210708223937723](Java.assets/image-20210708223937723.png)
+
+![image-20210708224317554](Java.assets/image-20210708224317554.png)
+
+
+
+# 流程控制
+
+
+
+## 
 
