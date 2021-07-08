@@ -63,15 +63,11 @@
 # 预科
 
 - 博客
-
 - markdown
-
 - 计算机
-
 - 硬件
 
   - 冯·诺依曼体系结构
-
 - 软件
 
   - 系统
@@ -82,10 +78,10 @@
     - Mac
     - Android
     - IOS
-
 - Dos命令
+
 ``` bash
-  # 盘符切换
+ # 盘符切换
   C:\Users\DELL>D:
   
   D:\>dir
@@ -155,8 +151,9 @@
   cd>文件名
   #删除文件
   del 文件名
-  
 ```
+
+
 
 - 发展史
   - 机器语言：二进制，计算机直接使用
@@ -166,17 +163,13 @@
     - 面向过程
     - 面向对象
 
-
-
 # 入门
 
 - 72年：C
-
 - 82年：C++
   - 复杂
   - 图形领域
   - 游戏领域
-  
 - 95年：Java
   - 语法类似于C
   - 面向对象
@@ -189,22 +182,17 @@
   - 多线程
   - Hadoop：大数据
   - Android
-  
 - 三大版本
   - JavaSE 标准版
   - JavaME 嵌入式开发（几乎消失了）
   - JavaEE 企业级
-  
 - JDK：Java开发工具
-
 - JRE：Java运行环境
-
 - JVM：Java虚拟机（作用：实现跨平台编译）
-
 - 安装JDK8
 
-``` bash
-  PS C:\Users\DELL> java -version
+``` bash 
+PS C:\Users\DELL> java -version
   java version "1.8.0_291"
   Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
   Java HotSpot(TM) 64-Bit Server VM (build 25.291-b10, mixed mode)
@@ -221,7 +209,7 @@
 
 - hello world
 
-  - ``` java
+``` java
     public class Hello //hello是类名要与.java文件名对应
     {
         public static void main(String[] args) //public 小写
@@ -229,7 +217,7 @@
             System.out.print("hello world!"); //大写System
         }
     }
-    ```
+```
 
   - ![image-20210707223016702](Java.assets/image-20210707223016702.png)
 
@@ -245,8 +233,6 @@
 ![image-20210707223710807](Java.assets/image-20210707223710807.png)
 
 - 使用IDEA作为集成开发环境
-
-
 
 # 基础语法
 
