@@ -211,10 +211,7 @@ print(response.text)##返回的内容就是网页的源代码
 - 今天的数学课总算跟上了，周末做题看看自己是不是真正掌握了！
 - 下午做数据结构算法实验，找BUG…………
 - 晚上找BUG…………
-- ![](../../daily_resource/image_2021/05/5_21_p1.jpg)
-- ![](../../daily_resource/image_2021/05/5_21_p0.jpg)
 - ![](../../daily_resource/image_2021/05/5_21_p6.jpg)
-- ![](../../daily_resource/image_2021/05/5_21_p4.jpg)
 
 ---
 

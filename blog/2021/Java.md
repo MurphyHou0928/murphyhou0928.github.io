@@ -672,10 +672,292 @@ public class Operator {
 
 ## 用户交互 scanner
 
+```java
+java.util.Scanner
+```
+
+- Scanner类中的方法
+
+``` markdown
+1. next()
+	a.一定要读取到有效字符后才可以结束输入
+	b.对输入有效字符之前遇到的空白，next()方法会自动将其去掉
+	c.只有输入有效字符后才将其后面输入的空白作为分隔符或者结束符
+	d.next()不能得到带有空格的字符串
+2.hasNext()
+
+3. nextLine()
+	a.以ENTER为结束符，也就是说，nextLine()方法输入回车之前的所有字符。
+	b.可以获得空白。
+4.hasNextLine()
+
+5. nextInt()
+6.nextFloat()
+7.
+
+
+
+```
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/8 23:16
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : scanner.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package Process_Control;
+
+import java.util.Scanner; //导入Scanner包
+
+public class ScannerDemo {
+    public static void main(String[] args) {
+        //创建一个扫描器，用于接收键盘数据
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.println("=====使用next方式接收=====");
+
+        //判断用户有没有输入字符串
+        if (scanner.hasNext()){
+            //使用next方式接收
+            String str=scanner.next();
+            System.out.println("输入的内容："+str);
+
+            /*
+            =====使用next方式接收=====
+            hello world
+            输入的内容：hello
+             */
+        }
+        System.out.println("===使用nextLine方式接收===");
+
+        if (scanner.hasNextLine())
+        {
+            String str1=scanner.nextLine();
+            System.out.println("输入的内容："+str1);
+
+            /*
+            ===使用nextLine方式接收===
+            hello world
+            输入的内容：hello world
+             */
+        }
+        scanner.close();//凡是属于IO流的类如果不关闭会一直占用资源，因此用完应该立刻关闭
+    }
+}
+
+```
+
 ## 顺序结构
 
 ## 选择结构
 
+if-else
+
+switch-case结构：支持byte，short,int,char,String（JDK7之后）类型
+
 ## 循环结构
 
-## break&&continue
+while
+
+do--while
+
+for
+
+for_增强型
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/9 21:09
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : ForStrength.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package Process_Control;
+
+public class ForStrength {
+    public static void main(String[] args) {
+        int[] num={10,20,30,40,50,60};
+        //遍历数组元素
+        for (int x:num)
+        {
+            System.out.println(x);
+        }
+        System.out.println("=======================");
+
+        int i;
+
+        for (i=0;i<6;i++){
+            System.out.println(num[i]);
+        }
+    }
+}
+
+```
+
+## break&continue
+
+break:终止循环
+
+continue：终止某次循环
+
+goto：无
+
+``` markdown
+在C/C++中，goto常被用于跳出多重循环。但goto 语句的使用往往会使程序的可读性降低，所以 Java 不允许 goto 跳转。实际上，自从“goto有害论”提出后，软件开发就不建议使用goto了，但是Java中依然保留了goto这个关键字留作备用，但这个关键字没有任何作用，只是为了将来可能的扩展，防止使用goto作为程序中的标识符。
+　　类似地，Java中的const也只是一个不起作用的保留关键字（不具备C语言中定义常量的作用，Java中要想定义常量使用final关键字），与goto一样防止作为程序中的标识符。
+```
+# 方法
+
+类似于其他语言中的函数
+
+## 定义及调用
+
+``` markdown
+System.out.println()
+    System:类
+    out:对象
+    println():方法
+```
+
+``` markdown
+1.方法是解决一类问题的步骤的有序组合
+2.方法包含于类或对象中
+3.方法在程序中被创建，在其他地方被引用
+```
+
+``` markdown
+修饰符 返回值类型 方法名（参数类型 参数名）
+{
+	方法体；
+	
+	return 返回值；
+}
+
+```
+
+## 方法重载
+
+重载就是在一个类中，有相同的函数名称，但形参不同的函数
+
+``` markdown
+规则
+1.方法的名称相同
+2.参数列表不同
+3.方法的返回值可以相同也可以不同
+4.仅仅返回值不同不足以成为方法的重载
+
+
+实现理论
+方法名称相同，编译器会根据调用方法的参数的个数、参数的类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错
+```
+
+## 命令行传参数
+
+运行一个程序的时候再传递给它消息，这需传递命令行参数给main函数实现
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/9 23:17
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Demo4.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package Method;
+
+public class Demo4 {
+    public static void main(String[] args) {
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
+        }
+    }
+}
+
+```
+
+
+
+![image-20210709232606771](Java.assets/image-20210709232606771.png)
+
+## 可变参数
+
+``` markdown
+又名不定项参数
+
+JDK1.5之后版本开始支持
+
+在方法的声明中，在指定参数类型后面加一个省略号（...）
+
+一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。
+
+任何普通参数必须在它之前声明
+```
+
+
+
+## 递归
+
+递归头
+
+递归体
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/9 23:38
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Recursion.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package Method;
+
+import java.util.Scanner;
+
+public class Recursion {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n;
+        n=scanner.nextInt();
+
+        System.out.println(fun(n));
+
+    }
+
+    public static int fun(int n)
+    {
+        if (n==1){
+            return 1;
+        }
+        else
+        {
+            return n*fun(n-1);
+        }
+
+    }
+}
+
+```
+
+
+
