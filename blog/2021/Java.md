@@ -961,3 +961,218 @@ public class Recursion {
 
 
 
+# 数组
+
+## 数组创建
+
+![image-20210710202406611](Java.assets/image-20210710202406611.png)
+
+![image-20210710205715578](Java.assets/image-20210710205715578.png)
+
+``` java
+        两句完成
+        int[] numbers; //数组的声明
+        numbers=new int[10];// 创建一个数组
+
+		一句完成
+        int[] numbers=new int[10];//声明并创建
+```
+
+``` markdown
+java 内存分析
+1.堆
+	存放new的对象和数组
+	可以被所有的线程共享，不会存放别的对象引用
+2.栈
+	存放基本变量类型（会包含这个基本类型的具体数值）
+	引用对象的变量（会存放这个引用在堆里面的具体地址）
+3.方法区
+	可以被所有的线程共享
+	包含了所有的class和static变量
+```
+
+## 初始化
+
+### 静态初始化
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/10 20:35
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Demo02.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package ArrayDemo;
+
+public class Demo02 {
+    public static void main(String[] args) {
+        // 静态初始化:创建+赋值
+        int[] a = {1,2,3,4,5};
+
+        int i;
+        for (i=0;i<a.length;i++)
+        {
+            System.out.println(a[i]);
+        }
+    }
+}
+
+```
+
+
+
+### 动态初始化
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/10 20:52
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Demo03.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package ArrayDemo;
+
+public class Demo03 {
+    public static void main(String[] args) {
+        // 动态初始化:声明+创建
+        //动态初始化中包含了默认初始化
+
+        int[] b= new int[10];
+        int i;
+        for (i=0;i<b.length;i++)
+        {
+            System.out.println(b[i]);
+        }
+
+    }
+}
+
+```
+
+
+
+### 默认初始化
+
+数组是引用类型，它的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式被隐式初始化
+
+``` java
+```
+
+特点
+
+- 数组的长度是确定的，数组一旦被创建，其大小是不可以改变的
+
+- 数组中的元素必须是相同的元素
+- 数组中的元素可以是任何数组类型，包括基本类型和引用类型
+- 数组变量属于引用类型，数组也可以看成是对象，数组中的每个元素相当于该对象的成员变量
+  - 数组本身就是对象，Java中对象是在堆中的，因此数组无论保存原始类型还是其他对象类型，数组对象本身是在堆中的
+
+
+
+数组的边界问题：0 ~ length-1
+
+## 数组使用
+
+For-Each循环
+
+数组作方法入参
+
+数组作返回值
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/10 21:34
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Demo07.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package ArrayDemo;
+
+public class Demo07 {
+    public static void main(String[] args) {
+        int[] array={1,2,3,4,5};
+
+        int[] rev=reverse(array);
+        for (int i = 0; i < rev.length; i++) {
+            System.out.println(rev[i]);
+        }
+    }
+
+    public static int[] reverse(int[] arr)
+    {
+        int[] re=new int[arr.length];
+        for (int i = 0,j=arr.length-1; i < arr.length; i++,j--) {
+            re[j]=arr[i];
+        }
+        return re;
+    }
+}
+
+```
+
+
+
+## 多维数组
+
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/10 21:45
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Demo08.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package ArrayDemo;
+
+public class Demo08 {
+    public static void main(String[] args) {
+        //int[][] arr=new int[2][5];
+
+        int[][] arr={{1,2},{3,4},{5,6}};//三行，两列
+
+
+        for (int i = 0; i < arr.length ; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println(arr[i][j]);
+
+            }
+        }
+
+
+    }
+}
+
+```
+
+## Arrays类
+
+![image-20210710215336621](Java.assets/image-20210710215336621.png)
+
+## 冒泡排序
+
+
+
+## 稀疏数组
+
+# 面向对象
+
+## 
