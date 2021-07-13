@@ -1138,8 +1138,91 @@ public class Demo07 {
 
 ## 冒泡排序
 
+``` java
+/**
+ * -*- coding : utf-8 -*-
+ *
+ * @Time : 2021/7/10 22:23
+ * @Author : MurphyHou
+ * @Proj_Name : JavaSE
+ * @File_Name : Demo10.java
+ * @Software : IntelliJ IDEA
+ * =======Here We Go!=======
+ */
+
+package ArrayDemo;
+
+import java.util.Arrays;
+
+public class Demo10 {
+    public static void main(String[] args) {
+        //冒泡排序
+
+        int[] arr={5,1,8,1,10,55};
+
+        arr=sort(arr);
+
+        System.out.println(Arrays.toString(arr));
+
+
+    }
+
+    public static int[] sort(int[] arr)
+    {
+        int temp;
+
+        for (int i = 0; i < arr.length-1; i++)
+        {
+            for (int j = 0; j <arr.length-1-i; j++)
+            {
+                if (arr[j+1]>arr[j])
+                {
+                    temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
+
+            }
+        }
+
+        return arr;
+
+
+    }
+
+}
+
+```
+
 
 
 ## 稀疏数组
 
 # 面向对象
+
+## 什么是面向对象
+
+- 面向过程与面对对象
+  - 类就是方法+属性
+  - Object-Oriented Programming
+  - OOP的本质是：以类的方式组织代码，以对象的形式封装数据
+
+![image-20210713233828635](Java.assets/image-20210713233828635.png)
+
+![image-20210713235138687](Java.assets/image-20210713235138687.png)
+
+## 方法
+
+## 对象的创建
+
+## 面向对象的三大特性
+
+### 1.封装
+
+### 2.寄存
+
+### 3.多态
+
+## 抽象类和接口
+
+## 内部类
