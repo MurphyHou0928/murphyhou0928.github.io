@@ -1129,39 +1129,8 @@ public class Demo07 {
 
 ## 多维数组
 
-``` java
-/**
- * -*- coding : utf-8 -*-
- *
- * @Time : 2021/7/10 21:45
- * @Author : MurphyHou
- * @Proj_Name : JavaSE
- * @File_Name : Demo08.java
- * @Software : IntelliJ IDEA
- * =======Here We Go!=======
- */
-
-package ArrayDemo;
-
-public class Demo08 {
-    public static void main(String[] args) {
-        //int[][] arr=new int[2][5];
-
-        int[][] arr={{1,2},{3,4},{5,6}};//三行，两列
 
 
-        for (int i = 0; i < arr.length ; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.println(arr[i][j]);
-
-            }
-        }
-
-
-    }
-}
-
-```
 
 ## Arrays类
 
